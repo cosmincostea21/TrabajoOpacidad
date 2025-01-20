@@ -5,7 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opacidad</title>
     <style>
-        h1{
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #titulo{
+            background-color: rgb(166, 236, 236);
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #titulo h1{
             text-align: center;
         }
         #contenedor{
@@ -37,7 +48,9 @@
     </style>
 </head>
 <body>
-    <h1>Elija el producto: </h1>
+    <div id="titulo">
+        <h1>Elija el producto</h1>
+    </div>
     <div id="contenedor">
         <div class="caja_img">
             <a href="https://www.pccomponentes.com/alurin-go-start-intel-celeron-n4020-8gb-256gb-ssd-156"><img src="images/equipo1.webp" alt=""></a>
