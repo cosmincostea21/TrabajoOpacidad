@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacidad</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #contenedor{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-around;
+        }
+        .caja_img{
+            opacity: 0.50;
+            width: 33%;
+            text-align: center;
+            
+        }
+
+        img{
+            width:55%;
+            height:70%;
+            transition: width 1s, height 1s;
+        }
+        
+        img:hover{
+            width: 60%;
+            opacity: 1;
+        }
+
+        .caja_img:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Elija el producto: </h1>
+    <div id="contenedor">
+        <div class="caja_img">
+            <a href="https://www.pccomponentes.com/alurin-go-start-intel-celeron-n4020-8gb-256gb-ssd-156"><img src="images/equipo1.webp" alt=""></a>
+        </div>
+
+        <div class="caja_img">
+            <a href="https://www.pccomponentes.com/pccom-revolt-4070-intel-core-i9-14900hx-32gb-1tb-ssd-rtx-4070-173"><img src="images/equipo2.webp" alt=""></a>
+        </div>
+
+        <div class="caja_img">
+            <a href="https://www.pccomponentes.com/hp-omen-17-db0005ns-amd-ryzen-9-8945hs-32gb-1tb-ssd-rtx-4060-173?_gl=1*1crdp85*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAhbi8BhDIARIsAJLOluf19MTL2vTKYeMK2EyVoj47jcWjqamATFhFCTkoEKgN_P-EoMleTb8aAiEsEALw_wcB"><img src="images/equipo3.webp" alt=""></a>
+        </div>
+
+        <div class="caja_img">
+            <a href="https://www.pccomponentes.com/portatil-acer-gaming-nitro-v-15-anv15-41-amd-ryzen-7-7735hs-32gb-1tb-ssd-rtx-4060-156?_gl=1*5pqlpq*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAhbi8BhDIARIsAJLOluf19MTL2vTKYeMK2EyVoj47jcWjqamATFhFCTkoEKgN_P-EoMleTb8aAiEsEALw_wcB"><img src="images/equipo4.webp" alt=""></a>
+        </div>
+
+        <div class="caja_img">
+            <a href="https://www.pccomponentes.com/portatil-acer-aspire-3-15-a315-44p-amd-ryzen-7-5700u-16gb-512-gb-ssd-156?_gl=1*5pqlpq*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAhbi8BhDIARIsAJLOluf19MTL2vTKYeMK2EyVoj47jcWjqamATFhFCTkoEKgN_P-EoMleTb8aAiEsEALw_wcB"><img src="images/equipo5.webp" alt=""></a>
+        </div>
+
+        <div class="caja_img">
+            <a href="https://www.pccomponentes.com/hp-victus-gaming-16-r0036ns-intel-core-i7-13620h-32gb-1tb-ssd-rtx-4060-161?_gl=1*5pqlpq*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAhbi8BhDIARIsAJLOluf19MTL2vTKYeMK2EyVoj47jcWjqamATFhFCTkoEKgN_P-EoMleTb8aAiEsEALw_wcB"><img src="images/equipo6.webp" alt=""></a>
+        </div>
+    </div>
+</body>
+</html>
